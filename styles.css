@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: block;
+ 
+}
+
+.header-and-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header-and-image img{
+    width:100%;
+    height:240px;
+    padding:12px;
+
+
+}
+
+.p-and-header{
+    padding: 12px;
+
+}
+.p-and-header .paragraph{
+
+    font-size:2rem;
+    padding-bottom: 5px;
+
+}
+
+.p-and-header .header{
+   
+    font-family:arial;
+    font-weight: bolder;
+    color: rgb(100, 100, 176);
+}
+
+
+.p-and-btn{
+    text-align: center;
+    padding-top: 23px;
+    background-color: rgb(241, 247, 247);
+    
+
+}
+.p-and-btn .paragraph{
+
+    font-size:2rem;
+    padding-bottom: 35px;
+
+
+}
+
+.p-and-btn button{
+   
+    background: transparent;
+    border:solid orange 1px ;
+    padding:12px;
+    width: 320px;
+    border-radius:10px;
+    font-size:1.5rem;
+    color:orange;
+    font-weight: bolder;
+    font-family:arial;
+    margin-bottom: 23px;
+}
+
+.p-and-btn button:hover{
+    background-color: orange;
+    color:white;
+}
+
+.container{
+    display:block;
+}
+
+.containerOne{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+ .classtimes{
+    
+    display: flex;
+    margin-left: 280px;
+    padding: 15px;
+    font-size: 2rem;
+    cursor:pointer;
+
+
+}
+
+.classtimes:hover{
+    color:red;
+}
+
+.containerOne{
+    
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    margin: 10px  auto;
+    
+    
+}
+
+
+.containerOne .class{
+    background-color: greenyellow;
+    width:43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius:50%;
+    font-size:24px;
+    color:#000;
+    font-weight: bolder;
+}
+
+.containerOne .classline{
+    width:10px;
+    height:2px;
+    color: #000;
+}
+
+.containertwo{
+    text-align: center;
+    padding: 12px;
+}
+
+
+.containertwo .head{
+
+    background-color: red;
+    font-size: 13px;
+    color:white;
+    font-family:arial;
+    font-weight:bolder;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom:21px ;
+
+}
+
+.containertwo .quote{
+
+    font-size:2rem;
+    font-family:arial;
+    color:rgb(15, 34, 41);
+    padding-top: 12px;
+
+
+}
+.containertwo .person{
+
+    font-size:0.9rem;
+    font-family:arial;
+    color:#000;
+    display: flex;
+    justify-content: flex-start;
+    padding:20px;
+
+
+}
+
+.quote-and-quotter{
+    background-color: rgb(244, 240, 240);
+    padding:10px;
+    border-radius: 10px;
+}
+
+.containertwo .View-other-quotes{
+   background-color: transparent;
+   padding: 12px;
+   border: solid orange;
+   border-radius: 10px;
+   font-size:0.9rem;
+   transition: 0.5s;
+
+}
+.containertwo .View-other-quotes:hover{
+    background-color: orange;
+    color:white;
+
+}
+
+.section-one{
+    display: none;
+}
+
+
+
